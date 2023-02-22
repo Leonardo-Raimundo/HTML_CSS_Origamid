@@ -21,6 +21,11 @@
   text-decoration: none;
   color: #141414;
   display: block;
+  border: 2px solid transparent;
+}
+
+.header-menu a:hover {
+  border-bottom: 2px solid #418a90;
 }
 
 @media (max-width: 800px) {
